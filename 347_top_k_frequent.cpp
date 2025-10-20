@@ -37,5 +37,4 @@ int main() {
     Solution* sln = new Solution();
     vector<int> result = sln->topKFrequent(nums, k);
     for(int num : result) cout << num << endl;
-
 }
