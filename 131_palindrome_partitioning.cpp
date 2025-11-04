@@ -31,7 +31,7 @@ class Solution {
             if (this->isPalindrome(s, i, j)) {
                 string sub = s.substr(i, j - i + 1);
                 partition.push_back(sub);
-                dfs(j + 1, s, partition, res);
+                dfs(j + 1, s, partition, res); // wtf is this i don't understand WTFFFFF I WANNA KILL MYSELF
                 partition.pop_back();
             }
         }
